@@ -4,7 +4,6 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Keith D. Moore</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
 	<!--[if lte IE 8]>
 	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
@@ -12,12 +11,9 @@
 	<!--[if gt IE 8]><!-->
 	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
 	<!--<![endif]-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/custom.css">
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-
 </head>
 <body>
 
@@ -53,7 +49,7 @@
 					<div class="pure-g">
 						<div class="pure-u-1 pure-u-md-1-3">
 							<div class="thumbnail">
-								<img src="images/chat.png" alt="">
+								<img id="img-1" class="thumb-img" src="images/chat.png" alt="Chat Room">
 								<div class="caption">
 									<h3>Chat Room</h3>
 									<p>Chat app that uses Node.js to send and receive messages from multiple clients.</p>
@@ -63,7 +59,7 @@
 						</div>
 						<div class="pure-u-1 pure-u-md-1-3">
 							<div class="thumbnail">
-								<img src="images/movies.png" alt="">
+								<img src="images/movies.png" class="thumb-img" alt="Movie Crawler">
 								<div class="caption">
 									<h3>Movie Crawler</h3>
 									<p>Retrieves data from themoviedb.org API using AJAX and filters results using Isotope.</p>
@@ -73,9 +69,9 @@
 						</div>
 						<div class="pure-u-1 pure-u-md-1-3">
 							<div class="thumbnail">
-								<img src="images/langs.png" alt="">
+								<img src="images/langs.png" class="thumb-img" alt="Interactive Map">
 								<div class="caption">
-									<h3>Thumbnail label</h3>
+									<h3>Interactive Map</h3>
 									<p>Applies up to three data filters and displays data on a heat map using AngularJS and DataMaps.</p>
 									<p><a href="https://github.com/rbunch-dc/backTableBankers" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/languages" class="pure-button">Demo</a></p>
 								</div>
@@ -83,7 +79,7 @@
 						</div>
 						<div class="pure-u-1 pure-u-md-1-3">
 							<div class="thumbnail">
-								<img src="images/tweets.png" alt="">
+								<img src="images/tweets.png" class="thumb-img" alt="Panama Papers Tweets">
 								<div class="caption">
 									<h3>Panama Papers Tweets</h3>
 									<p>Pulls data from Twitter API and filters by language.</p>
@@ -93,7 +89,7 @@
 						</div>
 						<div class="pure-u-1 pure-u-md-1-3">
 							<div class="thumbnail">
-								<img src="images/maps.png" alt="">
+								<img src="images/maps.png" class="thumb-img" alt="Search Places">
 								<div class="caption">
 									<h3>Search Places</h3>
 									<p>Displays search results for places and gets directions using Google Maps JavaScript API and AngularJS.</p>
@@ -103,7 +99,7 @@
 						</div>
 						<div class="pure-u-1 pure-u-md-1-3">
 							<div class="thumbnail">
-								<img src="images/calc.png" alt="">
+								<img src="images/calc.png" class="thumb-img" alt="Calculator">
 								<div class="caption">
 									<h3>Calculator</h3>
 									<p>Performs basic calculations using JavaScript and jQuery.</p>
@@ -141,6 +137,5 @@
 	<div class="footer">
 		Keith D. Moore | All Rights Reserved
 	</div>
-
 </body>
 </html>
