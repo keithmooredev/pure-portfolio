@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Keith D. Moore</title>
-	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
 	<!--[if lte IE 8]>
 	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
@@ -13,7 +13,10 @@
 	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
 	<!--<![endif]-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-	<link rel="stylesheet" href="custom.css">
+	<link rel="stylesheet" href="css/custom.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 
 </head>
 <body>
@@ -37,7 +40,8 @@
 				<li><a class="social" href="https://github.com/kdavidmoore"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></li>
 				<li><a class="social" href="https://linkedin.com/in/kdavidmoore"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
 			</ul>
-			<a class="pure-button" href="#portfolio">Browse Portfolio</a>
+			<a class="pure-button main-buttons" href="#portfolio">Browse Portfolio</a>
+			<a class="pure-button main-buttons" href="moore_resume.pdf">Download Resume</a>
 		</div>
 
 		<div class="content" id="portfolio">
@@ -45,68 +49,65 @@
 			<h1>Portfolio</h1>
 
 			<div class="panel panel-default">
-	  			<!-- <div class="panel-heading">
-	   				<h3 class="panel-title">Panel title</h3>
-	  			</div> -->
 	  			<div class="panel-body">
 					<div class="pure-g">
 						<div class="pure-u-1 pure-u-md-1-3">
 							<div class="thumbnail">
-								<img src="http://placehold.it/350x150" alt="">
+								<img src="images/chat.png" alt="">
 								<div class="caption">
-									<h3>Thumbnail label</h3>
-									<p>This is a caption.</p>
-									<p><a href="#" class="pure-button" role="button">GitHub</a> <a href="#" class="pure-button" role="button">Demo</a></p>
+									<h3>Chat Room</h3>
+									<p>Chat app that uses Node.js to send and receive messages from multiple clients.</p>
+									<p><a href="https://github.com/kdavidmoore/node-chat" class="pure-button">GitHub</a> <a href="https://shielded-fortress-12118.herokuapp.com/" class="pure-button">Demo</a></p>
 								</div>
 							</div>
 						</div>
 						<div class="pure-u-1 pure-u-md-1-3">
 							<div class="thumbnail">
-								<img src="http://placehold.it/350x150" alt="">
+								<img src="images/movies.png" alt="">
 								<div class="caption">
-									<h3>Thumbnail label</h3>
-									<p>This is a caption.</p>
-									<p><a href="#" class="pure-button">GitHub</a> <a href="#" class="pure-button">Demo</a></p>
+									<h3>Movie Crawler</h3>
+									<p>Retrieves data from themoviedb.org API using AJAX and filters results using Isotope.</p>
+									<p><a href="https://github.com/kdavidmoore/movie-app" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/movie-crawler" class="pure-button">Demo</a></p>
 								</div>
 							</div>
 						</div>
 						<div class="pure-u-1 pure-u-md-1-3">
 							<div class="thumbnail">
-								<img src="http://placehold.it/350x150" alt="">
+								<img src="images/langs.png" alt="">
 								<div class="caption">
 									<h3>Thumbnail label</h3>
-									<p>This is a caption.</p>
-									<p><a href="#" class="pure-button">GitHub</a> <a href="#" class="pure-button">Demo</a></p>
+									<p>Applies up to three data filters and displays data on a heat map using AngularJS and DataMaps.</p>
+									<p><a href="https://github.com/rbunch-dc/backTableBankers" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/languages" class="pure-button">Demo</a></p>
 								</div>
 							</div>
 						</div>
 						<div class="pure-u-1 pure-u-md-1-3">
 							<div class="thumbnail">
-								<img src="http://placehold.it/350x150" alt="">
+								<img src="images/tweets.png" alt="">
 								<div class="caption">
-									<h3>Thumbnail label</h3>
-									<p>This is a caption.</p>
-									<p><a href="#" class="pure-button" role="button">GitHub</a> <a href="#" class="pure-button" role="button">Demo</a></p>
+									<h3>Panama Papers Tweets</h3>
+									<p>Pulls data from Twitter API and filters by language.</p>
+									<p><a href="https://github.com/kdavidmoore/panama-papers-tweets" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/panama-papers" class="pure-button">Demo</a></p>
 								</div>
 							</div>
 						</div>
 						<div class="pure-u-1 pure-u-md-1-3">
 							<div class="thumbnail">
-								<img src="http://placehold.it/350x150" alt="">
+								<img src="images/maps.png" alt="">
 								<div class="caption">
-									<h3>Thumbnail label</h3>
-									<p>This is a caption.</p>
-									<p><a href="#" class="pure-button">GitHub</a> <a href="#" class="pure-button">Demo</a></p>
+									<h3>Search Places</h3>
+									<p>Displays search results for places and gets directions using Google Maps JavaScript API and AngularJS.</p>
+									<p><a href="https://github.com/kdavidmoore/us-cities-angular" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/search-places" class="pure-button">Demo</a></p>
 								</div>
 							</div>
 						</div>
 						<div class="pure-u-1 pure-u-md-1-3">
 							<div class="thumbnail">
-								<img src="http://placehold.it/350x150" alt="">
+								<img src="images/calc.png" alt="">
 								<div class="caption">
-									<h3>Thumbnail label</h3>
-									<p>This is a caption.</p>
-									<p><a href="#" class="pure-button">GitHub</a> <a href="#" class="pure-button">Demo</a></p>
+									<h3>Calculator</h3>
+									<p>Performs basic calculations using JavaScript and jQuery.</p>
+									<p><a href="https://github.com/kdavidmoore/js-calculator" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/calculator" class="pure-button">Demo</a></p>
 								</div>
 							</div>
 						</div>
@@ -121,12 +122,12 @@
 				<form class="pure-form pure-g" action="mailer.php" method="post">
 					<div class="pure-u-1 pure-u-md-1-3">
 						<fieldset class="pure-group">
-							<input type="text" class="pure-input-1" name="name" placeholder="Name">
-							<input type="email" class="pure-input-1" name="email" placeholder="Email">
+							<input type="text" class="pure-input-1 form-control" name="name" placeholder="Name" required>
+							<input type="email" class="pure-input-1 form-control" name="email" placeholder="Email" required>
 						</fieldset>
 
 						<fieldset class="pure-group">
-							<textarea class="pure-input-1" name="message" placeholder="Your message"></textarea>
+							<textarea class="pure-input-1 form-control" name="message" placeholder="Your message" required></textarea>
 						</fieldset>
 
 						<button type="submit" name="action" class="pure-button pure-input-1-2 pure-button-primary">Submit</button>

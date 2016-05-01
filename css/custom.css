@@ -85,11 +85,14 @@
 	margin: 20px;
 }
 
-
 /* footer */
 
 .footer {
 	text-align: center;
+}
+
+img {
+	height: 100%;
 }
 
 
