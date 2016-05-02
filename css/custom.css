@@ -31,11 +31,15 @@
 	text-align: center;
 }
 
-.pure-menu-link { color: #3B4A4D; }
+.pure-menu-link {
+	color: #3B4A4D;
+	text-transform: uppercase;
+}
 
 
 /* content */
 
+/* light grey background */
 .content-wrapper { background-color: #F7F8FA; }
 
 .content, .footer { color: #3B4A4D; }
@@ -43,14 +47,19 @@
 .content h1 { padding-left: 20px; }
 
 #home {
-	text-align: center; 
+	text-align: center;
 	padding-top: 50px;
 	min-height: 100vh;
 }
 
-#home h1, #home p { text-transform: uppercase; }
+#home > * { vertical-align: middle; }
 
-.main-buttons { margin-bottom: 10px; }
+.main-button {
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.main-button:hover { color: white; }
 
 #social-links {
 	list-style-type: none;
@@ -74,9 +83,13 @@
 .panel { margin: 20px; }
 
 #contact {
-	min-height: 95vh;
+	min-height: 90vh;
 	box-sizing: border-box;
 	padding-top: 40px;
+}
+
+button {
+	text-transform: uppercase;
 }
 
 /* footer */
