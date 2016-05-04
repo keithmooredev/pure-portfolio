@@ -46,9 +46,9 @@ body {
 /* light grey background */
 .content-wrapper { background-color: #F7F8FA; }
 
-.content, .footer { color: #3B4A4D; }
+.section, .footer { color: #3B4A4D; }
 
-.content h1 { padding-left: 20px; }
+.section h1 { padding-left: 20px; }
 
 #home {
 	text-align: center;

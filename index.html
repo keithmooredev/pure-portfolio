@@ -15,12 +15,16 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/custom.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="http://cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
+	<script src="http://cdn.jsdelivr.net/jquery.localscroll/1.4.0/jquery.localScroll.min.js"></script>
 </head>
 <body>
 
 	<div class="fixed-menu menu-wrapper">
 		<div class="pure-menu pure-menu-horizontal">
-			<ul class="pure-menu-list">
+			<ul class="pure-menu-list" id="nav">
 				<li class="pure-menu-item"><a href="#home" class="pure-menu-link">Home</a></li>
 				<li class="pure-menu-item"><a href="#portfolio" class="pure-menu-link">Portfolio</a></li>
 				<li class="pure-menu-item"><a href="#contact" class="pure-menu-link">Contact</a></li>
@@ -30,7 +34,7 @@
 
 	<div class="content-wrapper">
 
-		<div class="content" id="home">
+		<div class="section" id="home">
 			<h1>Keith D. Moore</h1>
 			<p>Full Stack Developer</p>
 			<ul id="social-links">
@@ -43,7 +47,7 @@
 			</p>
 		</div>
 
-		<div class="content" id="portfolio">
+		<div class="section" id="portfolio">
 		
 			<h1>Portfolio</h1>
 
@@ -115,7 +119,7 @@
 			</div>
 		</div>
 
-		<div class="content" id="contact">
+		<div class="section" id="contact">
 			<h1>Contact</h1>
 			<div class="form-wrapper">
 				<form class="pure-form pure-g" action="mailer.php" method="post">
@@ -139,6 +143,12 @@
 	<div class="footer">
 		<p>Keith D. Moore | All Rights Reserved</p>
 	</div>
+
+<script defer type="text/javascript">
+	$(document).ready(function(){
+		$('#nav').localScroll();
+	});
+</script>
 
 </body>
 </html>
