@@ -11,14 +11,15 @@
 	<!--[if gt IE 8]><!-->
 	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
 	<!--<![endif]-->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/stylesheets/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="assets/stylesheets/custom.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 	<script src="http://cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
 	<script src="http://cdn.jsdelivr.net/jquery.localscroll/1.4.0/jquery.localScroll.min.js"></script>
+	<script type="text/javascript" src="assets/javascripts/jquery.matchHeight.js"></script>
 </head>
 <body>
 
@@ -54,9 +55,9 @@
 			<div class="panel panel-default">
 	  			<div class="panel-body">
 					<div class="pure-g">
-						<div class="pure-u-1 pure-u-md-1-3">
+						<div class="pure-u-1 pure-u-md-1-4">
 							<div class="thumbnail">
-								<img id="img-1" class="thumb-img" src="images/coffee.png" alt="Coffee Site">
+								<img id="img-1" class="thumb-img" src="assets/images/coffee.png" alt="Coffee Site">
 								<div class="caption">
 									<h3>Coffee Site</h3>
 									<p>eCommerce site built using MEAN stack (MongoDB, Express, AngularJS, and Node.js) that allows user to register, log in, and place orders.</p>
@@ -64,9 +65,9 @@
 								</div>
 							</div>
 						</div>
-						<div class="pure-u-1 pure-u-md-1-3">
+						<div class="pure-u-1 pure-u-md-1-4">
 							<div class="thumbnail">
-								<img id="img-1" class="thumb-img" src="images/electric.png" alt="Electric or Not">
+								<img id="img-1" class="thumb-img" src="assets/images/electric.png" alt="Electric or Not">
 								<div class="caption">
 									<h3>Electric or Not</h3>
 									<p>Single-page app built in Node.js using Express that allows the user to vote on photos and view total votes.</p>
@@ -74,9 +75,9 @@
 								</div>
 							</div>
 						</div>
-						<div class="pure-u-1 pure-u-md-1-3">
+						<div class="pure-u-1 pure-u-md-1-4">
 							<div class="thumbnail">
-								<img src="images/movies.png" class="thumb-img" alt="Movie Crawler">
+								<img src="assets/images/movies.png" class="thumb-img" alt="Movie Crawler">
 								<div class="caption">
 									<h3>Movie Crawler</h3>
 									<p>Retrieves data from themoviedb.org API using AJAX and filters results using Isotope.</p>
@@ -84,9 +85,9 @@
 								</div>
 							</div>
 						</div>
-						<div class="pure-u-1 pure-u-md-1-3">
+						<div class="pure-u-1 pure-u-md-1-4">
 							<div class="thumbnail">
-								<img src="images/langs.png" class="thumb-img" alt="Interactive Map">
+								<img src="assets/images/langs.png" class="thumb-img" alt="Interactive Map">
 								<div class="caption">
 									<h3>Interactive Map</h3>
 									<p>Applies up to three data filters and displays data on a heat map using AngularJS and DataMaps.</p>
@@ -94,9 +95,19 @@
 								</div>
 							</div>
 						</div>
-						<div class="pure-u-1 pure-u-md-1-3">
+						<div class="pure-u-1 pure-u-md-1-4">
 							<div class="thumbnail">
-								<img src="images/tweets.png" class="thumb-img" alt="Panama Papers Tweets">
+								<img src="assets/images/chat.png" class="thumb-img" alt="Node Chat">
+								<div class="caption">
+									<h3>Node Chat</h3>
+									<p>Pulls data from Twitter API and filters by language.</p>
+									<p><a href="https://github.com/kdavidmoore/node-chat" class="pure-button">GitHub</a> <a href="https://shielded-fortress-12118.herokuapp.com/" class="pure-button">Demo</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="pure-u-1 pure-u-md-1-4">
+							<div class="thumbnail">
+								<img src="assets/images/tweets.png" class="thumb-img" alt="Panama Papers Tweets">
 								<div class="caption">
 									<h3>Panama Papers Tweets</h3>
 									<p>Pulls data from Twitter API and filters by language.</p>
@@ -104,9 +115,19 @@
 								</div>
 							</div>
 						</div>
-						<div class="pure-u-1 pure-u-md-1-3">
+						<div class="pure-u-1 pure-u-md-1-4">
 							<div class="thumbnail">
-								<img src="images/places.png" class="thumb-img" alt="Search Places">
+								<img src="assets/images/calc.png" class="thumb-img" alt="Calculator">
+								<div class="caption">
+									<h3>JS Calculator</h3>
+									<p>Performs basic calculations using JavaScript and displays results using HTML, CSS, and jQuery.</p>
+									<p><a href="https://github.com/kdavidmoore/js-calculator" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/calculator" class="pure-button">Demo</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="pure-u-1 pure-u-md-1-4">
+							<div class="thumbnail">
+								<img src="assets/images/places.png" class="thumb-img" alt="Search Places">
 								<div class="caption">
 									<h3>Search Places</h3>
 									<p>Displays search results for places and gets directions using Google Maps JavaScript API and AngularJS.</p>
@@ -117,7 +138,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> <!-- end portfolio -->
 
 		<div class="section" id="contact">
 			<h1>Contact</h1>
@@ -144,7 +165,16 @@
 		<p>Keith D. Moore | All Rights Reserved</p>
 	</div>
 
-<script defer type="text/javascript">
+<script type="text/javascript">
+	$(function(){
+		$('.thumbnail').matchHeight({
+			byRow: true,
+			property: 'height',
+			target: null,
+			remove: false
+		});
+	});
+
 	$(document).ready(function(){
 		$.localScroll();
 	});
