@@ -91,21 +91,41 @@ body {
   text-decoration: none;
 }
 
+
+/* portfolio section */
+
 #portfolio {
   box-sizing: border-box;
   padding-top: 40px;
 }
 
-.thumbnail {
-  border: none;
+.panel {
+  margin: 20px;
+}
+
+.portfolio-wrapper {
+  /*padding: 0 20px;*/
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.more-info {
+  /*display: none;*/
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.more-info h3 {
+}
+
+.more-info p {
 }
 
 .form-wrapper {
   padding: 20px;
-}
-
-.panel {
-  margin: 20px;
 }
 
 #contact {
