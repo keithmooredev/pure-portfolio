@@ -147,13 +147,17 @@
 						</fieldset>
 
 						<button type="submit" name="action" class="pure-button pure-input-1-2 pure-button-primary">Submit</button>
+					</div>
+				</form>
+				<div class="pure-g">
+					<div class="pure-u-1">
 						<?php
-							if (isset($_GET['updated'])){
+							if (isset($_GET['sent'])){
 								print "<h3>Message sent! I'll be in touch shortly.</h3>";
 							}
 						?>
 					</div>
-				</form>
+				</div>
 			</div>
 		</div>
 	</div>
