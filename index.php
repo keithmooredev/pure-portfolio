@@ -147,6 +147,11 @@
 						</fieldset>
 
 						<button type="submit" name="action" class="pure-button pure-input-1-2 pure-button-primary">Submit</button>
+						<?php
+							if (isset($_GET['updated'])){
+								print "<h3>Message sent! I'll be in touch shortly.</h3>";
+							}
+						?>
 					</div>
 				</form>
 			</div>
