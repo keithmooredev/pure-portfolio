@@ -166,14 +166,16 @@
 					</div>
 				</form>
 				<div class="pure-g">
-					<div class="pure-u-1">
-						<?php
-							if (isset($_GET['sent'])){
-								print "<div class='message' style='border: 1px solid #30C9E8'>" .
-									"<h3 style='color: #30C9E8'>Message sent! I'll be in touch shortly.</h3>" .
-									"</div>";
-							}
-						?>
+					<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+						<div class="message-wrapper">
+							<?php
+								if (isset($_GET['sent'])){
+									print "<div class='message' style='border: 1px solid #FF4431'>" .
+										"<h3 style='color: #FF4431'>Message sent! I'll be in touch shortly.</h3>" .
+										"</div>";
+								}
+							?>
+						</div>
 					</div>
 				</div>
 			</div>

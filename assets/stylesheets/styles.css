@@ -23,6 +23,10 @@ body {
   }
 }
 
+button {
+  text-transform: uppercase;
+}
+
 
 /* menu */
 
@@ -49,9 +53,8 @@ body {
 
 /* content */
 
-/* light grey background */
 .content-wrapper {
-  background-color: #F7F8FA;
+  background-color: #F7F8FA; /* light grey background */
 }
 
 .section, .footer {
@@ -129,12 +132,6 @@ body {
   color: white;
 }
 
-.more-info h3 {
-}
-
-.more-info p {
-}
-
 .form-wrapper {
   padding: 20px;
 }
@@ -145,15 +142,20 @@ body {
   padding-top: 40px;
 }
 
-button {
-  text-transform: uppercase;
+
+/* contact section */
+
+.message-wrapper {
+  padding: 10px;
 }
+
 
 /* footer */
 
 .footer {
   text-align: center;
 }
+
 
 /* development */
 
