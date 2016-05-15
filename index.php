@@ -19,6 +19,7 @@
 	<script src="http://cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
 	<script src="http://cdn.jsdelivr.net/jquery.localscroll/1.4.0/jquery.localScroll.min.js"></script>
 	<script type="text/javascript" src="assets/javascripts/jquery.matchHeight.js"></script>
+	<script type="text/javascript" src="assets/javascripts/initPage.js" defer></script>
 	
 </head>
 <body>
@@ -181,8 +182,6 @@
 	<div class="footer">
 		<p>Keith D. Moore | All Rights Reserved</p>
 	</div>
-
-<script type="text/javascript" src="assets/javascripts/initPage.js"></script>
 
 </body>
 </html>
