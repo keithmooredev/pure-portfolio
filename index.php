@@ -11,7 +11,6 @@
 	<!--[if gt IE 8]><!-->
 	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
 	<!--<![endif]-->
-	<link rel="stylesheet" href="assets/stylesheets/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="assets/stylesheets/styles.css">
@@ -20,6 +19,7 @@
 	<script src="http://cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
 	<script src="http://cdn.jsdelivr.net/jquery.localscroll/1.4.0/jquery.localScroll.min.js"></script>
 	<script type="text/javascript" src="assets/javascripts/jquery.matchHeight.js"></script>
+	
 </head>
 <body>
 
@@ -52,96 +52,92 @@
 		
 			<h1>Portfolio</h1>
 
-			<div class="panel panel-default">
-				<div class="panel-body">
-					<div class="pure-g portfolio-wrapper">
-						<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
-							<div class="thumb-wrapper">
-								<div class="outer-thumb">
-									<img id="img-1" src="assets/images/coffee.png" alt="Coffee Site">
-								</div>
-								<div class="hover-thumb">
-									<h3>Coffee Site</h3>
-									<p><a href="https://github.com/kdavidmoore/coffee2-angular" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/coffee" class="pure-button">Demo</a></p>
-								</div>
-							</div>
+			<div class="pure-g portfolio-wrapper">
+				<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
+					<div class="thumb-wrapper">
+						<div class="outer-thumb">
+							<img id="img-1" class="custom-img" src="assets/images/coffee.png" alt="Coffee Site">
 						</div>
-						<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
-							<div class="thumb-wrapper">
-								<div class="outer-thumb">
-									<img id="img-2" src="assets/images/electric.png" alt="Coffee Site">
-								</div>
-								<div class="hover-thumb">
-									<h3>Electric or Not</h3>
-									<p><a href="https://github.com/kdavidmoore/electric-or-not" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com:3060" class="pure-button">Demo</a></p>
-								</div>
-							</div>
+						<div class="hover-thumb">
+							<h3>Coffee Site</h3>
+							<p><a href="https://github.com/kdavidmoore/coffee2-angular" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/coffee" class="pure-button">Demo</a></p>
 						</div>
-						<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
-							<div class="thumb-wrapper">
-								<div class="outer-thumb">
-									<img id="img-3" src="assets/images/movies.png" alt="Coffee Site">
-								</div>
-								<div class="hover-thumb">
-									<h3>Movie Crawler</h3>
-									<p><a href="https://github.com/kdavidmoore/movie-app" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/movie-crawler" class="pure-button">Demo</a></p>
-								</div>
-							</div>
+					</div>
+				</div>
+				<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
+					<div class="thumb-wrapper">
+						<div class="outer-thumb">
+							<img id="img-2" class="custom-img" src="assets/images/electric.png" alt="Coffee Site">
 						</div>
-						<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
-							<div class="thumb-wrapper">
-								<div class="outer-thumb">
-									<img id="img-4" src="assets/images/langs.png" alt="Coffee Site">
-								</div>
-								<div class="hover-thumb">
-									<h3>Interactive Map</h3>
-									<p><a href="https://github.com/kdavidmoore/backTableBankers" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/languages" class="pure-button">Demo</a></p>
-								</div>
-							</div>
+						<div class="hover-thumb">
+							<h3>Electric or Not</h3>
+							<p><a href="https://github.com/kdavidmoore/electric-or-not" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com:3060" class="pure-button">Demo</a></p>
 						</div>
-						<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
-							<div class="thumb-wrapper">
-								<div class="outer-thumb">
-									<img id="img-5" src="assets/images/chat.png" alt="Coffee Site">
-								</div>
-								<div class="hover-thumb">
-									<h3>Node Chat</h3>
-									<p><a href="https://github.com/kdavidmoore/node-chat" class="pure-button">GitHub</a> <a href="https://shielded-fortress-12118.herokuapp.com/" class="pure-button">Demo</a></p>
-								</div>
-							</div>
+					</div>
+				</div>
+				<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
+					<div class="thumb-wrapper">
+						<div class="outer-thumb">
+							<img id="img-3" class="custom-img" src="assets/images/movies.png" alt="Coffee Site">
 						</div>
-						<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
-							<div class="thumb-wrapper">
-								<div class="outer-thumb">
-									<img id="img-6" src="assets/images/tweets.png" alt="Coffee Site">
-								</div>
-								<div class="hover-thumb">
-									<h3>Panama Papers Tweets</h3>
-									<p><a href="https://github.com/kdavidmoore/panama-papers-tweets" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/panama-papers" class="pure-button">Demo</a></p>
-								</div>
-							</div>
+						<div class="hover-thumb">
+							<h3>Movie Crawler</h3>
+							<p><a href="https://github.com/kdavidmoore/movie-app" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/movie-crawler" class="pure-button">Demo</a></p>
 						</div>
-						<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
-							<div class="thumb-wrapper">
-								<div class="outer-thumb">
-									<img id="img-7" src="assets/images/calc.png" alt="Coffee Site">
-								</div>
-								<div class="hover-thumb">
-									<h3>JS Calculator</h3>
-									<p><a href="https://github.com/kdavidmoore/js-calculator" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/calculator" class="pure-button">Demo</a></p>
-								</div>
-							</div>
+					</div>
+				</div>
+				<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
+					<div class="thumb-wrapper">
+						<div class="outer-thumb">
+							<img id="img-4" class="custom-img" src="assets/images/langs.png" alt="Coffee Site">
 						</div>
-						<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
-							<div class="thumb-wrapper">
-								<div class="outer-thumb">
-									<img id="img-8" src="assets/images/places.png" alt="Coffee Site">
-								</div>
-								<div class="hover-thumb">
-									<h3>Search Places</h3>
-									<p><a href="https://github.com/kdavidmoore/us-cities-angular" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/search-places" class="pure-button">Demo</a></p>
-								</div>
-							</div>
+						<div class="hover-thumb">
+							<h3>Interactive Map</h3>
+							<p><a href="https://github.com/kdavidmoore/backTableBankers" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/languages" class="pure-button">Demo</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
+					<div class="thumb-wrapper">
+						<div class="outer-thumb">
+							<img id="img-5" class="custom-img" src="assets/images/chat.png" alt="Coffee Site">
+						</div>
+						<div class="hover-thumb">
+							<h3>Node Chat</h3>
+							<p><a href="https://github.com/kdavidmoore/node-chat" class="pure-button">GitHub</a> <a href="https://shielded-fortress-12118.herokuapp.com/" class="pure-button">Demo</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
+					<div class="thumb-wrapper">
+						<div class="outer-thumb">
+							<img id="img-6" class="custom-img" src="assets/images/tweets.png" alt="Coffee Site">
+						</div>
+						<div class="hover-thumb">
+							<h3>Panama Papers Tweets</h3>
+							<p><a href="https://github.com/kdavidmoore/panama-papers-tweets" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/panama-papers" class="pure-button">Demo</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
+					<div class="thumb-wrapper">
+						<div class="outer-thumb">
+							<img id="img-7" class="custom-img" src="assets/images/calc.png" alt="Coffee Site">
+						</div>
+						<div class="hover-thumb">
+							<h3>JS Calculator</h3>
+							<p><a href="https://github.com/kdavidmoore/js-calculator" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/calculator" class="pure-button">Demo</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
+					<div class="thumb-wrapper">
+						<div class="outer-thumb">
+							<img id="img-8" class="custom-img" src="assets/images/places.png" alt="Coffee Site">
+						</div>
+						<div class="hover-thumb">
+							<h3>Search Places</h3>
+							<p><a href="https://github.com/kdavidmoore/us-cities-angular" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/search-places" class="pure-button">Demo</a></p>
 						</div>
 					</div>
 				</div>
@@ -186,6 +182,7 @@
 		<p>Keith D. Moore | All Rights Reserved</p>
 	</div>
 
-	<script type="text/javascript" src="assets/javascripts/initPage.js"></script>
+<script type="text/javascript" src="assets/javascripts/initPage.js"></script>
+
 </body>
 </html>

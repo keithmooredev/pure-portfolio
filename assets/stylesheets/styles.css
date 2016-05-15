@@ -101,13 +101,19 @@ button {
   padding-top: 40px;
 }
 
-.panel {
-  margin: 20px;
+.portfolio-wrapper {
+  padding: 10px;
+}
+
+.portfolio-wrapper > * {
+  margin: 0;
+  padding: 0;
 }
 
 .thumb-wrapper {
   position: relative;
-  height: 170px;
+  /*min-height: 160px;*/
+  overflow: hidden;
 }
 
 .outer-thumb {
@@ -115,6 +121,10 @@ button {
   top: 0;
   left: 0;
   height: 100%;
+}
+
+.custom-img {
+  width: 100%;
 }
 
 .hover-thumb {
@@ -161,5 +171,5 @@ button {
 /* development */
 
 /*div {
-  border: 1px dashed black;
+  border: 1px dashed red;
 }*/
