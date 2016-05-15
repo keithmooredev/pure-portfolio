@@ -58,7 +58,7 @@
 						<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
 							<div class="thumb-wrapper">
 								<div class="outer-thumb">
-									<img id="img-1" class="pure-img" src="assets/images/coffee.png" alt="Coffee Site">
+									<img id="img-1" src="assets/images/coffee.png" alt="Coffee Site">
 								</div>
 								<div class="hover-thumb">
 									<h3>Coffee Site</h3>
@@ -69,7 +69,7 @@
 						<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
 							<div class="thumb-wrapper">
 								<div class="outer-thumb">
-									<img id="img-2" class="pure-img" src="assets/images/electric.png" alt="Coffee Site">
+									<img id="img-2" src="assets/images/electric.png" alt="Coffee Site">
 								</div>
 								<div class="hover-thumb">
 									<h3>Electric or Not</h3>
@@ -80,7 +80,7 @@
 						<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
 							<div class="thumb-wrapper">
 								<div class="outer-thumb">
-									<img id="img-3" class="pure-img" src="assets/images/movies.png" alt="Coffee Site">
+									<img id="img-3" src="assets/images/movies.png" alt="Coffee Site">
 								</div>
 								<div class="hover-thumb">
 									<h3>Movie Crawler</h3>
@@ -91,7 +91,7 @@
 						<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
 							<div class="thumb-wrapper">
 								<div class="outer-thumb">
-									<img id="img-4" class="pure-img" src="assets/images/langs.png" alt="Coffee Site">
+									<img id="img-4" src="assets/images/langs.png" alt="Coffee Site">
 								</div>
 								<div class="hover-thumb">
 									<h3>Interactive Map</h3>
@@ -102,7 +102,7 @@
 						<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
 							<div class="thumb-wrapper">
 								<div class="outer-thumb">
-									<img id="img-5" class="pure-img" src="assets/images/chat.png" alt="Coffee Site">
+									<img id="img-5" src="assets/images/chat.png" alt="Coffee Site">
 								</div>
 								<div class="hover-thumb">
 									<h3>Node Chat</h3>
@@ -113,7 +113,7 @@
 						<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
 							<div class="thumb-wrapper">
 								<div class="outer-thumb">
-									<img id="img-6" class="pure-img" src="assets/images/tweets.png" alt="Coffee Site">
+									<img id="img-6" src="assets/images/tweets.png" alt="Coffee Site">
 								</div>
 								<div class="hover-thumb">
 									<h3>Panama Papers Tweets</h3>
@@ -124,7 +124,7 @@
 						<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
 							<div class="thumb-wrapper">
 								<div class="outer-thumb">
-									<img id="img-7" class="pure-img" src="assets/images/calc.png" alt="Coffee Site">
+									<img id="img-7" src="assets/images/calc.png" alt="Coffee Site">
 								</div>
 								<div class="hover-thumb">
 									<h3>JS Calculator</h3>
@@ -135,7 +135,7 @@
 						<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
 							<div class="thumb-wrapper">
 								<div class="outer-thumb">
-									<img id="img-8" class="pure-img" src="assets/images/places.png" alt="Coffee Site">
+									<img id="img-8" src="assets/images/places.png" alt="Coffee Site">
 								</div>
 								<div class="hover-thumb">
 									<h3>Search Places</h3>
