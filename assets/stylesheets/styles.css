@@ -74,7 +74,6 @@ body {
 
 .main-button {
   margin-bottom: 10px;
-  text-transform: uppercase;
 }
 
 .main-button:hover {
@@ -103,19 +102,31 @@ body {
   margin: 20px;
 }
 
-.portfolio-wrapper {
-  /*padding: 0 20px;*/
-}
-
-.image-wrapper {
+.thumb-wrapper {
   position: relative;
+  height: 170px;
 }
 
-.more-info {
-  /*display: none;*/
+.outer-thumb {
   position: absolute;
   top: 0;
   left: 0;
+  height: 100%;
+}
+
+.hover-thumb {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+.hover-thumb h3 {
+  color: white;
 }
 
 .more-info h3 {

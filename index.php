@@ -53,11 +53,13 @@
 			<h1>Portfolio</h1>
 
 			<div class="panel panel-default">
-	  			<div class="panel-body">
+				<div class="panel-body">
 					<div class="pure-g portfolio-wrapper">
 						<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
-							<div class="image-wrapper">
-								<img id="img-1" class="pure-img" src="assets/images/coffee.png" alt="Coffee Site">
+							<div class="thumb-wrapper">
+								<div class="outer-thumb">
+									<img id="img-1" class="pure-img" src="assets/images/coffee.png" alt="Coffee Site">
+								</div>
 								<div class="hover-thumb">
 									<h3>Coffee Site</h3>
 									<p><a href="https://github.com/kdavidmoore/coffee2-angular" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/coffee" class="pure-button">Demo</a></p>
@@ -65,8 +67,10 @@
 							</div>
 						</div>
 						<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
-							<div class="image-wrapper">
-								<img id="img-2" class="pure-img" src="assets/images/electric.png" alt="Coffee Site">
+							<div class="thumb-wrapper">
+								<div class="outer-thumb">
+									<img id="img-2" class="pure-img" src="assets/images/electric.png" alt="Coffee Site">
+								</div>
 								<div class="hover-thumb">
 									<h3>Electric or Not</h3>
 									<p><a href="https://github.com/kdavidmoore/electric-or-not" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com:3060" class="pure-button">Demo</a></p>
@@ -74,8 +78,10 @@
 							</div>
 						</div>
 						<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
-							<div class="image-wrapper">
-								<img id="img-3" class="pure-img" src="assets/images/movies.png" alt="Coffee Site">
+							<div class="thumb-wrapper">
+								<div class="outer-thumb">
+									<img id="img-3" class="pure-img" src="assets/images/movies.png" alt="Coffee Site">
+								</div>
 								<div class="hover-thumb">
 									<h3>Movie Crawler</h3>
 									<p><a href="https://github.com/kdavidmoore/movie-app" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/movie-crawler" class="pure-button">Demo</a></p>
@@ -83,8 +89,10 @@
 							</div>
 						</div>
 						<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
-							<div class="image-wrapper">
-								<img id="img-4" class="pure-img" src="assets/images/langs.png" alt="Coffee Site">
+							<div class="thumb-wrapper">
+								<div class="outer-thumb">
+									<img id="img-4" class="pure-img" src="assets/images/langs.png" alt="Coffee Site">
+								</div>
 								<div class="hover-thumb">
 									<h3>Interactive Map</h3>
 									<p><a href="https://github.com/kdavidmoore/backTableBankers" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/languages" class="pure-button">Demo</a></p>
@@ -92,8 +100,10 @@
 							</div>
 						</div>
 						<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
-							<div class="image-wrapper">
-								<img id="img-5" class="pure-img" src="assets/images/chat.png" alt="Coffee Site">
+							<div class="thumb-wrapper">
+								<div class="outer-thumb">
+									<img id="img-5" class="pure-img" src="assets/images/chat.png" alt="Coffee Site">
+								</div>
 								<div class="hover-thumb">
 									<h3>Node Chat</h3>
 									<p><a href="https://github.com/kdavidmoore/node-chat" class="pure-button">GitHub</a> <a href="https://shielded-fortress-12118.herokuapp.com/" class="pure-button">Demo</a></p>
@@ -101,8 +111,10 @@
 							</div>
 						</div>
 						<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
-							<div class="image-wrapper">
-								<img id="img-6" class="pure-img" src="assets/images/tweets.png" alt="Coffee Site">
+							<div class="thumb-wrapper">
+								<div class="outer-thumb">
+									<img id="img-6" class="pure-img" src="assets/images/tweets.png" alt="Coffee Site">
+								</div>
 								<div class="hover-thumb">
 									<h3>Panama Papers Tweets</h3>
 									<p><a href="https://github.com/kdavidmoore/panama-papers-tweets" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/panama-papers" class="pure-button">Demo</a></p>
@@ -110,8 +122,10 @@
 							</div>
 						</div>
 						<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
-							<div class="image-wrapper">
-								<img id="img-7" class="pure-img" src="assets/images/calc.png" alt="Coffee Site">
+							<div class="thumb-wrapper">
+								<div class="outer-thumb">
+									<img id="img-7" class="pure-img" src="assets/images/calc.png" alt="Coffee Site">
+								</div>
 								<div class="hover-thumb">
 									<h3>JS Calculator</h3>
 									<p><a href="https://github.com/kdavidmoore/js-calculator" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/calculator" class="pure-button">Demo</a></p>
@@ -119,8 +133,10 @@
 							</div>
 						</div>
 						<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
-							<div class="image-wrapper">
-								<img id="img-8" class="pure-img" src="assets/images/places.png" alt="Coffee Site">
+							<div class="thumb-wrapper">
+								<div class="outer-thumb">
+									<img id="img-8" class="pure-img" src="assets/images/places.png" alt="Coffee Site">
+								</div>
 								<div class="hover-thumb">
 									<h3>Search Places</h3>
 									<p><a href="https://github.com/kdavidmoore/us-cities-angular" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/search-places" class="pure-button">Demo</a></p>
@@ -136,7 +152,7 @@
 			<h1>Contact</h1>
 			<div class="form-wrapper">
 				<form class="pure-form pure-g" action="mailer.php" method="post">
-					<div class="pure-u-1 pure-u-md-1-3">
+					<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
 						<fieldset class="pure-group">
 							<input type="text" class="pure-input-1 form-control" name="name" placeholder="Name" required>
 							<input type="email" class="pure-input-1 form-control" name="email" placeholder="Email" required>
@@ -153,7 +169,9 @@
 					<div class="pure-u-1">
 						<?php
 							if (isset($_GET['sent'])){
-								print "<h3>Message sent! I'll be in touch shortly.</h3>";
+								print "<div class='message' style='border: 1px solid #30C9E8'>" .
+									"<h3 style='color: #30C9E8'>Message sent! I'll be in touch shortly.</h3>" .
+									"</div>";
 							}
 						?>
 					</div>
@@ -166,29 +184,6 @@
 		<p>Keith D. Moore | All Rights Reserved</p>
 	</div>
 
-<script type="text/javascript">
-	$(function(){
-		$('.pure-img').matchHeight({
-			byRow: true,
-			property: 'height',
-			target: null,
-			remove: false
-		});
-	});
-
-	$(document).ready(function(){
-		$.localScroll();
-
-		// $(".pure-img").mouseenter(function(){
-  		// 		$('.hover-thumb').show();
-        // });
-
-  		// $(".pure-img").mouseleave(function(){
-  		//   	$('.hover-thumb').hide();
-  		// });
-
-	});
-</script>
-
+	<script type="text/javascript" src="assets/javascripts/initPage.js"></script>
 </body>
 </html>
