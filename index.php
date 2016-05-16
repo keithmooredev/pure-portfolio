@@ -37,16 +37,18 @@
 	<div class="content-wrapper">
 
 		<div class="section" id="home">
-			<h1>Keith D. Moore</h1>
-			<p>Full Stack Developer</p>
-			<ul id="social-links">
-				<li><a class="social" href="https://github.com/kdavidmoore"><i class="fa fa-github-square" aria-hidden="true"></i> GitHub</a></li>
-				<li><a class="social" href="https://linkedin.com/in/kdavidmoore"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li>
-			</ul>
-			<p>
-				<a class="pure-button pure-button-primary main-button" href="#portfolio">Browse Portfolio</a>
-				<a class="pure-button pure-button-primary main-button" href="moore_resume.pdf">Download Resume</a>
-			</p>
+			<div class="splash">
+				<h1>Keith D. Moore</h1>
+				<p>Full Stack Developer</p>
+				<ul class="social-links">
+					<li><a class="social-item" href="https://github.com/kdavidmoore"><i class="fa fa-github-square" aria-hidden="true"></i> GitHub</a></li>
+					<li><a class="social-item" href="https://linkedin.com/in/kdavidmoore"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li>
+				</ul>
+				<p class="button-wrapper">
+					<a class="custom-button pure-button pure-button-primary" href="#portfolio">Browse Portfolio</a>
+					<a class="custom-button pure-button pure-button-primary" href="moore_resume.pdf">Download Resume</a>
+				</p>
+			</div>
 		</div>
 
 		<div class="section" id="portfolio">
@@ -159,7 +161,7 @@
 							<textarea class="pure-input-1 form-control" name="message" placeholder="Your message" required></textarea>
 						</fieldset>
 
-						<button type="submit" name="action" class="pure-button pure-input-1-2 pure-button-primary">Submit</button>
+						<button type="submit" name="action" class="custom-button pure-button pure-input-1-2 pure-button-primary">Submit</button>
 					</div>
 				</form>
 				<div class="pure-g">

@@ -2,8 +2,8 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* smartphones (portrait and landscape) */
-@media only screen and (max-device-width: 480px) {
+/* smartphones */
+@media screen and (max-width: 35.5em) {
   .pure-menu-link {
     font-size: 1em;
   }
@@ -14,7 +14,7 @@ body {
 
 
 /* everything else */
-@media only screen and (min-device-width: 481px) {
+@media screen and (min-width: 35.5em) {
   .pure-menu-link {
     font-size: 1.5em;
   }
@@ -23,8 +23,13 @@ body {
   }
 }
 
-button {
+.custom-button {
   text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.button-wrapper {
+  padding: 10px;
 }
 
 
@@ -36,18 +41,13 @@ button {
   left: 0;
   z-index: 9999;
   width: 100%;
-  -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.3);
-  moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.3);
-  box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+  moz-box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+  box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
 
   background-color: white;
   margin: 0 auto;
   text-align: center;
-}
-
-.pure-menu-link {
-  color: #3B4A4D;
-  text-transform: uppercase;
 }
 
 
@@ -58,41 +58,61 @@ button {
 }
 
 .section, .footer {
-  color: #3B4A4D;
+  color: #3B4A4D; /* dark grey text color */
 }
 
 .section h1 {
   padding-left: 20px;
 }
 
+
+/* home section (splash) */
+
+.pure-menu-link {
+  color: #3B4A4D; /* dark grey text color */
+  text-transform: uppercase;
+}
+
 #home {
-  text-align: center;
   padding-top: 50px;
   min-height: 100vh;
 }
 
-#home > * {
-  vertical-align: middle;
-}
-
-.main-button {
-  margin-bottom: 10px;
-}
-
-.main-button:hover {
-  color: white;
-}
-
-#social-links {
+.social-links {
   list-style-type: none;
   padding: 0;
 }
 
-.social {
+.social-item {
   color: #3B4A4D;
   text-decoration: none;
 }
 
+.social-item:hover {
+  color: #23527C; /* dark blue link hover color */
+}
+
+@media screen and (min-width: 64em) {
+  .splash {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    height: 50%;
+    position: absolute;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 63.9em) {
+  .splash {
+    position: static;
+    margin: auto;
+    text-align: center;
+  }
+}
 
 /* portfolio section */
 
@@ -112,7 +132,6 @@ button {
 
 .thumb-wrapper {
   position: relative;
-  /*min-height: 160px;*/
   overflow: hidden;
 }
 
@@ -166,10 +185,3 @@ button {
 .footer {
   text-align: center;
 }
-
-
-/* development */
-
-/*div {
-  border: 1px dashed red;
-}*/
