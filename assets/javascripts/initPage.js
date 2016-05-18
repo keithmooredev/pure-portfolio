@@ -12,12 +12,12 @@ $(window).load(function(){
 
 	// show more info on the project on mouseover
 	$(".thumb-wrapper").mouseenter(function(){
-		$(this).find('.hover-thumb').show();
+		$(this).find('.hover-thumb').fadeToggle("fast");
 	});
 
 	// hide info on mouseleave
 	$(".thumb-wrapper").mouseleave(function(){
-		$(this).find('.hover-thumb').hide();
+		$(this).find('.hover-thumb').fadeToggle("fast");
 	});
 
 	// the thumb-wrapper must be set equal to the height of the first image
@@ -27,7 +27,7 @@ $(window).load(function(){
 
 	// when the window is resized, let matchHeight know to fix the thumbnail heights again...
 	$(window).resize(function() {
-		$.fn.matchHeight._update()
+		$.fn.matchHeight._update();
 	});
 
 });
