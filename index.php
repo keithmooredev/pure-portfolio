@@ -103,22 +103,22 @@
 				<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
 					<div class="thumb-wrapper">
 						<div class="outer-thumb">
-							<img id="img-5" class="custom-img" src="assets/images/chat.png" alt="Coffee Site">
+							<img id="img-6" class="custom-img" src="assets/images/tweets.png" alt="Coffee Site">
 						</div>
 						<div class="hover-thumb">
-							<h3>Node Chat</h3>
-							<p><a href="https://github.com/kdavidmoore/node-chat" class="pure-button">GitHub</a> <a href="https://shielded-fortress-12118.herokuapp.com/" class="pure-button">Demo</a></p>
+							<h3>Panama Papers Tweets</h3>
+							<p><a href="https://github.com/kdavidmoore/panama-papers-tweets" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/panama-papers" class="pure-button">Demo</a></p>
 						</div>
 					</div>
 				</div>
 				<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
 					<div class="thumb-wrapper">
 						<div class="outer-thumb">
-							<img id="img-6" class="custom-img" src="assets/images/tweets.png" alt="Coffee Site">
+							<img id="img-5" class="custom-img" src="assets/images/chat.png" alt="Coffee Site">
 						</div>
 						<div class="hover-thumb">
-							<h3>Panama Papers Tweets</h3>
-							<p><a href="https://github.com/kdavidmoore/panama-papers-tweets" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/panama-papers" class="pure-button">Demo</a></p>
+							<h3>Node Chat</h3>
+							<p><a href="https://github.com/kdavidmoore/node-chat" class="pure-button">GitHub</a> <a href="https://shielded-fortress-12118.herokuapp.com/" class="pure-button">Demo</a></p>
 						</div>
 					</div>
 				</div>
