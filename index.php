@@ -125,18 +125,18 @@
 				<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
 					<div class="thumb-wrapper">
 						<div class="outer-thumb">
-							<img id="img-7" class="custom-img" src="assets/images/calc.png" alt="Coffee Site">
+							<img id="img-7" class="custom-img" src="assets/images/yikyak.png" alt="Save the Rocks">
 						</div>
 						<div class="hover-thumb">
-							<h3>JS Calculator</h3>
-							<p><a href="https://github.com/kdavidmoore/js-calculator" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/calculator" class="pure-button">Demo</a></p>
+							<h3>YikYak Clone</h3>
+							<p><a href="https://github.com/kdavidmoore/yikyak-clone" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/savetherocks" class="pure-button">Demo</a></p>
 						</div>
 					</div>
 				</div>
 				<div class="pure-u-1 pure-u-md-1-3 pure-u-lg-1-4">
 					<div class="thumb-wrapper">
 						<div class="outer-thumb">
-							<img id="img-8" class="custom-img" src="assets/images/places.png" alt="Coffee Site">
+							<img id="img-8" class="custom-img" src="assets/images/places.png" alt="Search Places">
 						</div>
 						<div class="hover-thumb">
 							<h3>Search Places</h3>
