@@ -71,7 +71,7 @@
 				<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
 					<div class="thumb-wrapper">
 						<div class="outer-thumb">
-							<img id="img-2" class="custom-img" src="assets/images/electric.png" alt="Coffee Site">
+							<img id="img-2" class="custom-img" src="assets/images/electric.png" alt="Electric or Not">
 						</div>
 						<div class="hover-thumb">
 							<h3>Electric or Not</h3>
@@ -83,7 +83,7 @@
 				<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
 					<div class="thumb-wrapper">
 						<div class="outer-thumb">
-							<img id="img-3" class="custom-img" src="assets/images/movies.png" alt="Coffee Site">
+							<img id="img-3" class="custom-img" src="assets/images/movies.png" alt="Move Crawler">
 						</div>
 						<div class="hover-thumb">
 							<h3>Movie Crawler</h3>
@@ -95,7 +95,7 @@
 				<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
 					<div class="thumb-wrapper">
 						<div class="outer-thumb">
-							<img id="img-4" class="custom-img" src="assets/images/langs.png" alt="Coffee Site">
+							<img id="img-4" class="custom-img" src="assets/images/langs.png" alt="Interactive Map">
 						</div>
 						<div class="hover-thumb">
 							<h3>Interactive Map</h3>
@@ -107,7 +107,7 @@
 				<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
 					<div class="thumb-wrapper">
 						<div class="outer-thumb">
-							<img id="img-6" class="custom-img" src="assets/images/tweets.png" alt="Coffee Site">
+							<img id="img-6" class="custom-img" src="assets/images/tweets.png" alt="Tweets App">
 						</div>
 						<div class="hover-thumb">
 							<h3>Panama Papers Tweets</h3>
@@ -119,7 +119,7 @@
 				<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
 					<div class="thumb-wrapper">
 						<div class="outer-thumb">
-							<img id="img-5" class="custom-img" src="assets/images/chat.png" alt="Coffee Site">
+							<img id="img-5" class="custom-img" src="assets/images/chat.png" alt="Node Chat">
 						</div>
 						<div class="hover-thumb">
 							<h3>Node Chat</h3>
@@ -137,6 +137,18 @@
 							<h3>YikYak Clone</h3>
 							<p><a href="https://github.com/kdavidmoore/yikyak-clone" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/savetherocks" class="pure-button">Demo</a></p>
 							<p class="info-text">Social media app built using PHP, MySQL, and MeekroDB.</p>
+						</div>
+					</div>
+				</div>
+				<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+					<div class="thumb-wrapper">
+						<div class="outer-thumb">
+							<img id="img-8" class="custom-img" src="assets/images/calc.png" alt="Calculator">
+						</div>
+						<div class="hover-thumb">
+							<h3>Calculator</h3>
+							<p><a href="https://github.com/kdavidmoore/js-calculator" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/calculator" class="pure-button">Demo</a></p>
+							<p class="info-text">Performs and displays simple calculations using HTML, CSS, jQuery, and JavaScript</p>
 						</div>
 					</div>
 				</div>
