@@ -64,7 +64,7 @@
 						<div class="hover-thumb">
 							<h3>Coffee Site</h3>
 							<p><a href="https://github.com/kdavidmoore/coffee2-angular" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/coffee" class="pure-button">Demo</a></p>
-							<p>An eCommerce site built using Node.js/Express, MongoDB, and AngularJS.</p>
+							<p class="info-text">An eCommerce site built using Node.js/Express, MongoDB, and AngularJS.</p>
 						</div>
 					</div>
 				</div>
@@ -76,7 +76,7 @@
 						<div class="hover-thumb">
 							<h3>Electric or Not</h3>
 							<p><a href="https://github.com/kdavidmoore/electric-or-not" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com:3060" class="pure-button">Demo</a></p>
-							<p>A single-page voting app built using Node.js/Express, Bootstrap, and MongoDB.</p>
+							<p class="info-text">A single-page voting app built using Node.js/Express, Bootstrap, and MongoDB.</p>
 						</div>
 					</div>
 				</div>
@@ -88,7 +88,7 @@
 						<div class="hover-thumb">
 							<h3>Movie Crawler</h3>
 							<p><a href="https://github.com/kdavidmoore/movie-app" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/movie-crawler" class="pure-button">Demo</a></p>
-							<p>Pulls JSON data from themoviedb.org API; filters results using typeahead.js and Isotope.</p>
+							<p class="info-text">Pulls JSON data from themoviedb.org API; filters results using typeahead.js and Isotope.</p>
 						</div>
 					</div>
 				</div>
@@ -100,7 +100,7 @@
 						<div class="hover-thumb">
 							<h3>Interactive Map</h3>
 							<p><a href="https://github.com/kdavidmoore/backTableBankers" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/languages" class="pure-button">Demo</a></p>
-							<p>Uses AngularJS and DataMaps.js to apply and graphically display up to three data filters.</p>
+							<p class="info-text">Uses AngularJS and DataMaps.js to apply and graphically display up to three data filters.</p>
 						</div>
 					</div>
 				</div>
@@ -112,7 +112,7 @@
 						<div class="hover-thumb">
 							<h3>Panama Papers Tweets</h3>
 							<p><a href="https://github.com/kdavidmoore/panama-papers-tweets" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/panama-papers" class="pure-button">Demo</a></p>
-							<p>Pulls data from Twitter API and filters results using AngularJS.</p>
+							<p class="info-text">Pulls data from Twitter API and filters results using AngularJS.</p>
 						</div>
 					</div>
 				</div>
@@ -124,7 +124,7 @@
 						<div class="hover-thumb">
 							<h3>Node Chat</h3>
 							<p><a href="https://github.com/kdavidmoore/node-chat" class="pure-button">GitHub</a> <a href="https://shielded-fortress-12118.herokuapp.com/" class="pure-button">Demo</a></p>
-							<p>Send and recieve messages from multiple chat clients using Node.js/Express and socket.io.</p>
+							<p class="info-text">Send and recieve messages from multiple chat clients using Node.js/Express and socket.io.</p>
 						</div>
 					</div>
 				</div>
@@ -136,7 +136,7 @@
 						<div class="hover-thumb">
 							<h3>YikYak Clone</h3>
 							<p><a href="https://github.com/kdavidmoore/yikyak-clone" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/savetherocks" class="pure-button">Demo</a></p>
-							<p>Social media app built using PHP, MySQL, and MeekroDB.</p>
+							<p class="info-text">Social media app built using PHP, MySQL, and MeekroDB.</p>
 						</div>
 					</div>
 				</div>
@@ -148,7 +148,7 @@
 						<div class="hover-thumb">
 							<h3>Search Places</h3>
 							<p><a href="https://github.com/kdavidmoore/us-cities-angular" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/search-places" class="pure-button">Demo</a></p>
-							<p>Search for places and display directions using AngularJS and Google Maps JavaScript API.</p>
+							<p class="info-text">Search for places and display directions using AngularJS and Google Maps JavaScript API.</p>
 						</div>
 					</div>
 				</div>

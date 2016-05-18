@@ -161,6 +161,11 @@ body {
   color: white;
 }
 
+.info-text {
+  color: white;
+  padding: 10px; 
+}
+
 .form-wrapper {
   padding: 20px;
 }
