@@ -50,7 +50,7 @@ body {
 }
 
 
-/* content */
+/* general sections styling */
 
 .content-wrapper {
   background-color: #F7F8FA; /* light grey background */
@@ -60,12 +60,12 @@ body {
   color: #3B4A4D; /* dark grey text color */
 }
 
-.section h1 {
+.section-header {
   padding-left: 20px;
 }
 
 
-/* home section (splash) */
+/* home section and splash */
 
 .pure-menu-link {
   color: #3B4A4D; /* dark grey text color */

@@ -53,7 +53,7 @@
 
 		<div class="section" id="portfolio">
 
-			<h1>Portfolio</h1>
+			<h1 class="section-header">Portfolio</h1>
 
 			<div class="pure-g portfolio-wrapper">
 				<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
@@ -168,7 +168,7 @@
 		</div>
 
 		<div class="section" id="contact">
-			<h1>Contact</h1>
+			<h1 class="section-header">Contact</h1>
 			<div class="form-wrapper">
 				<form class="pure-form pure-g" action="mailer.php" method="post">
 					<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
