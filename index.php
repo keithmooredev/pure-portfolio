@@ -20,7 +20,7 @@
 	<script src="http://cdn.jsdelivr.net/jquery.localscroll/1.4.0/jquery.localScroll.min.js"></script>
 	<script type="text/javascript" src="assets/javascripts/jquery.matchHeight.js"></script>
 	<script type="text/javascript" src="assets/javascripts/initPage.js" defer></script>
-	
+
 </head>
 <body>
 
@@ -52,7 +52,7 @@
 		</div>
 
 		<div class="section" id="portfolio">
-		
+
 			<h1>Portfolio</h1>
 
 			<div class="pure-g portfolio-wrapper">
@@ -65,6 +65,18 @@
 							<h3>Coffee Site</h3>
 							<p><a href="https://github.com/kdavidmoore/coffee2-angular" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/coffee" class="pure-button">Demo</a></p>
 							<p class="info-text">An eCommerce site built using Node.js/Express, MongoDB, and AngularJS.</p>
+						</div>
+					</div>
+				</div>
+				<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+					<div class="thumb-wrapper">
+						<div class="outer-thumb">
+							<img id="img-7" class="custom-img" src="assets/images/yikyak.png" alt="Save the Rocks">
+						</div>
+						<div class="hover-thumb">
+							<h3>YikYak Clone</h3>
+							<p><a href="https://github.com/kdavidmoore/yikyak-clone" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/savetherocks" class="pure-button">Demo</a></p>
+							<p class="info-text">Social media app built using PHP, MySQL, and MeekroDB.</p>
 						</div>
 					</div>
 				</div>
@@ -125,18 +137,6 @@
 							<h3>Node Chat</h3>
 							<p><a href="https://github.com/kdavidmoore/node-chat" class="pure-button">GitHub</a> <a href="https://shielded-fortress-12118.herokuapp.com/" class="pure-button">Demo</a></p>
 							<p class="info-text">Send and recieve messages from multiple chat clients using Node.js/Express and socket.io.</p>
-						</div>
-					</div>
-				</div>
-				<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-					<div class="thumb-wrapper">
-						<div class="outer-thumb">
-							<img id="img-7" class="custom-img" src="assets/images/yikyak.png" alt="Save the Rocks">
-						</div>
-						<div class="hover-thumb">
-							<h3>YikYak Clone</h3>
-							<p><a href="https://github.com/kdavidmoore/yikyak-clone" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/savetherocks" class="pure-button">Demo</a></p>
-							<p class="info-text">Social media app built using PHP, MySQL, and MeekroDB.</p>
 						</div>
 					</div>
 				</div>
