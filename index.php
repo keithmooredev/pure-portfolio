@@ -87,7 +87,7 @@
 						</div>
 						<div class="hover-thumb">
 							<h3>Rock Talk</h3>
-							<p><a href="https://github.com/kdavidmoore/yikyak-clone" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/savetherocks" class="pure-button">Demo</a></p>
+							<p><a href="https://github.com/kdavidmoore/yikyak-clone" class="pure-button">GitHub</a> <a href="http://rocks.kdavidmoore.com" class="pure-button">Demo</a></p>
 							<p class="info-text">Social media app built using PHP, MySQL, and MeekroDB.</p>
 						</div>
 					</div>
