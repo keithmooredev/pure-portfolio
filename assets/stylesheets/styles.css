@@ -5,6 +5,7 @@ body {
 .custom-button {
   text-transform: uppercase;
   margin-bottom: 10px;
+  background-color: #3CBC8D;
 }
 
 .button-wrapper {
@@ -67,7 +68,7 @@ body {
 }
 
 .social-item:hover {
-  color: #23527C; /* dark blue link hover color */
+  color: #07905C; /* dark green link hover color */
 }
 
 @media screen and (min-width: 64em) {
