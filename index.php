@@ -45,8 +45,8 @@
 					<li><a class="social-item" href="https://linkedin.com/in/kdavidmoore"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li>
 				</ul>
 				<p class="button-wrapper">
-					<a class="custom-button pure-button pure-button-primary" href="#portfolio">Browse Portfolio</a>
-					<a class="custom-button pure-button pure-button-primary" href="moore_resume.pdf">Download Resume</a>
+					<a class="custom-button pure-button" href="#portfolio">Browse Portfolio</a>
+					<a class="custom-button pure-button" href="moore_resume.pdf">Download Resume</a>
 				</p>
 			</div>
 		</div>
@@ -181,7 +181,7 @@
 							<textarea class="pure-input-1 form-control" name="message" placeholder="Your message" required></textarea>
 						</fieldset>
 
-						<button type="submit" name="action" class="custom-button pure-button pure-input-1-2 pure-button-primary">Submit</button>
+						<button type="submit" name="action" class="custom-button pure-button pure-input-1-2">Submit</button>
 					</div>
 				</form>
 				<div class="pure-g">
