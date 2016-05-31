@@ -6,6 +6,11 @@ body {
   text-transform: uppercase;
   margin-bottom: 10px;
   background-color: #3CBC8D;
+  color: white;
+}
+
+.custom-buttom:hover {
+  color: white;
 }
 
 .button-wrapper {
