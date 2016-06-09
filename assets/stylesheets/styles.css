@@ -78,14 +78,14 @@ body {
 
 @media screen and (min-width: 64em) {
   .splash {
+    position: absolute;
     top: 0;
-    bottom: 0;
     left: 0;
     right: 0;
+    bottom: 0;
     margin: auto;
     text-align: center;
     height: 50%;
-    position: absolute;
     overflow: hidden;
   }
 }
@@ -125,6 +125,7 @@ body {
   top: 0;
   left: 0;
   height: 100%;
+  width: 100%;
 }
 
 .custom-img {
@@ -149,6 +150,12 @@ body {
 .info-text {
   color: white;
   padding: 10px; 
+}
+
+@media screen and (max-width: 63.9em) {
+  .info-text {
+    font-size: 12px; 
+  }
 }
 
 .form-wrapper {

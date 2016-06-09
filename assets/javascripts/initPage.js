@@ -1,5 +1,11 @@
-$(window).load(function(){
+$(document).ready(function(){
+	// binds localSroll to all local links
+	$.localScroll();
+});
 
+$(window).load(function(){
+	
+	// make all the thumbnail images the same height
 	$('.custom-img').matchHeight({
 		byRow: true,
 		property: 'height',
@@ -7,10 +13,7 @@ $(window).load(function(){
 		remove: false
 	});
 
-	// binds localSroll to all local links
-	$.localScroll();
-
-	// show more info on the project on mouseover
+	// show more info on mouseover
 	$(".thumb-wrapper").mouseenter(function(){
 		$(this).find('.hover-thumb').fadeToggle("fast");
 	});
@@ -20,14 +23,12 @@ $(window).load(function(){
 		$(this).find('.hover-thumb').fadeToggle("fast");
 	});
 
-	// the thumb-wrapper must be set equal to the height of the first image
-	// the matchHeight plugin has already taken care of the image heights
+	// set the thumb-wrapper height equal to the height of one of the images
 	var setHeight = $("#img-1").height();
 	$('.thumb-wrapper').height(setHeight);
 
-	// when the window is resized, let matchHeight know to fix the thumbnail heights again...
+	// when the window is resized, tell matchHeight to update
 	$(window).resize(function() {
 		$.fn.matchHeight._update();
 	});
-
 });

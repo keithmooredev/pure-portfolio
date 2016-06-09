@@ -14,13 +14,6 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="assets/stylesheets/styles.css">
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-	<script src="http://cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
-	<script src="http://cdn.jsdelivr.net/jquery.localscroll/1.4.0/jquery.localScroll.min.js"></script>
-	<script type="text/javascript" src="assets/javascripts/jquery.matchHeight.js"></script>
-	<script type="text/javascript" src="assets/javascripts/initPage.js" defer></script>
-
 </head>
 <body>
 
@@ -204,6 +197,12 @@
 	<div class="footer">
 		<p>Keith D. Moore | All Rights Reserved</p>
 	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="http://cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
+<script src="http://cdn.jsdelivr.net/jquery.localscroll/1.4.0/jquery.localScroll.min.js"></script>
+<script type="text/javascript" src="assets/javascripts/jquery.matchHeight.js"></script>
+<script type="text/javascript" src="assets/javascripts/initPage.js"></script>
 
 </body>
 </html>
