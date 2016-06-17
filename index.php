@@ -57,19 +57,7 @@
 						<div class="hover-thumb">
 							<h3>Coffee Site</h3>
 							<p><a href="https://github.com/kdavidmoore/coffee2-angular" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/coffee" class="pure-button">Demo</a></p>
-							<p class="info-text">An eCommerce site built using Node.js/Express, MongoDB, and AngularJS.</p>
-						</div>
-					</div>
-				</div>
-				<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-					<div class="thumb-wrapper">
-						<div class="outer-thumb">
-							<img id="img-2" class="custom-img" src="assets/images/electric.png" alt="Electric or Not">
-						</div>
-						<div class="hover-thumb">
-							<h3>Electric or Not</h3>
-							<p><a href="https://github.com/kdavidmoore/electric-or-not" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com:3060" class="pure-button">Demo</a></p>
-							<p class="info-text">A single-page voting app built using Node.js/Express, Bootstrap, and MongoDB.</p>
+							<p class="info-text">An eCommerce app built using AngularJS, Node.js/Express, and MongoDB.</p>
 						</div>
 					</div>
 				</div>
@@ -82,6 +70,18 @@
 							<h3>Rock Talk</h3>
 							<p><a href="https://github.com/kdavidmoore/yikyak-clone" class="pure-button">GitHub</a> <a href="http://rocks.kdavidmoore.com" class="pure-button">Demo</a></p>
 							<p class="info-text">Social media app built using PHP, MySQL, and MeekroDB.</p>
+						</div>
+					</div>
+				</div>
+				<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+					<div class="thumb-wrapper">
+						<div class="outer-thumb">
+							<img id="img-2" class="custom-img" src="assets/images/ag.png" alt="Ag Labs">
+						</div>
+						<div class="hover-thumb">
+							<h3>Ag Labs</h3>
+							<p><a href="https://github.com/kdavidmoore/final-project" class="pure-button">GitHub</a> <a href="http://ag.kdavidmoore.com" class="pure-button">Demo</a></p>
+							<p class="info-text">An eCommerce app built using AngularUI Router, Node.js/Express, and MySQL.</p>
 						</div>
 					</div>
 				</div>

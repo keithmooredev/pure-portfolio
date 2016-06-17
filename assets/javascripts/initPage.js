@@ -23,7 +23,7 @@ $(window).load(function(){
 		$(this).find('.hover-thumb').fadeToggle("fast");
 	});
 
-	// set the thumb-wrapper height equal to the height of one of the images
+	// set the thumb-wrapper width/height equal to the width/height of one of the images
 	var setHeight = $("#img-1").height();
 	$('.thumb-wrapper').height(setHeight);
 
