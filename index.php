@@ -64,24 +64,24 @@
 				<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
 					<div class="thumb-wrapper">
 						<div class="outer-thumb">
-							<img id="img-7" class="custom-img" src="assets/images/yikyak.png" alt="Rock Talk">
-						</div>
-						<div class="hover-thumb">
-							<h3>Rock Talk</h3>
-							<p><a href="https://github.com/kdavidmoore/yikyak-clone" class="pure-button">GitHub</a> <a href="http://rocks.kdavidmoore.com" class="pure-button">Demo</a></p>
-							<p class="info-text">Social media app built using PHP, MySQL, and MeekroDB.</p>
-						</div>
-					</div>
-				</div>
-				<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-					<div class="thumb-wrapper">
-						<div class="outer-thumb">
 							<img id="img-2" class="custom-img" src="assets/images/ag.png" alt="Ag Labs">
 						</div>
 						<div class="hover-thumb">
 							<h3>Ag Labs</h3>
 							<p><a href="https://github.com/kdavidmoore/final-project" class="pure-button">GitHub</a> <a href="http://ag.kdavidmoore.com" class="pure-button">Demo</a></p>
 							<p class="info-text">An eCommerce app built using AngularUI Router, Node.js/Express, and MySQL.</p>
+						</div>
+					</div>
+				</div>
+				<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+					<div class="thumb-wrapper">
+						<div class="outer-thumb">
+							<img id="img-7" class="custom-img" src="assets/images/yikyak.png" alt="Rock Talk">
+						</div>
+						<div class="hover-thumb">
+							<h3>Rock Talk</h3>
+							<p><a href="https://github.com/kdavidmoore/yikyak-clone" class="pure-button">GitHub</a> <a href="http://rocks.kdavidmoore.com" class="pure-button">Demo</a></p>
+							<p class="info-text">Social media app built using PHP, MySQL, and MeekroDB.</p>
 						</div>
 					</div>
 				</div>
@@ -100,12 +100,12 @@
 				<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
 					<div class="thumb-wrapper">
 						<div class="outer-thumb">
-							<img id="img-3" class="custom-img" src="assets/images/movies.png" alt="Movie Crawler">
+							<img id="img-5" class="custom-img" src="assets/images/chat.png" alt="Node Chat">
 						</div>
 						<div class="hover-thumb">
-							<h3>Movie Crawler</h3>
-							<p><a href="https://github.com/kdavidmoore/movie-app" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/movie-crawler" class="pure-button">Demo</a></p>
-							<p class="info-text">Pulls JSON data from themoviedb.org API; filters results using typeahead.js and Isotope.</p>
+							<h3>Node Chat</h3>
+							<p><a href="https://github.com/kdavidmoore/node-chat" class="pure-button">GitHub</a> <a href="https://shielded-fortress-12118.herokuapp.com/" class="pure-button">Demo</a></p>
+							<p class="info-text">Send and recieve messages from multiple chat clients using Node.js and socket.io.</p>
 						</div>
 					</div>
 				</div>
@@ -124,24 +124,24 @@
 				<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
 					<div class="thumb-wrapper">
 						<div class="outer-thumb">
-							<img id="img-5" class="custom-img" src="assets/images/chat.png" alt="Node Chat">
-						</div>
-						<div class="hover-thumb">
-							<h3>Node Chat</h3>
-							<p><a href="https://github.com/kdavidmoore/node-chat" class="pure-button">GitHub</a> <a href="https://shielded-fortress-12118.herokuapp.com/" class="pure-button">Demo</a></p>
-							<p class="info-text">Send and recieve messages from multiple chat clients using Node.js and socket.io.</p>
-						</div>
-					</div>
-				</div>
-				<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-					<div class="thumb-wrapper">
-						<div class="outer-thumb">
 							<img id="img-8" class="custom-img" src="assets/images/calc.png" alt="JS Calculator">
 						</div>
 						<div class="hover-thumb">
 							<h3>JS Calculator</h3>
 							<p><a href="https://github.com/kdavidmoore/js-calculator" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/calculator" class="pure-button">Demo</a></p>
 							<p class="info-text">Performs and displays simple calculations using HTML, CSS, jQuery, and JavaScript</p>
+						</div>
+					</div>
+				</div>
+				<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+					<div class="thumb-wrapper">
+						<div class="outer-thumb">
+							<img id="img-3" class="custom-img" src="assets/images/movies.png" alt="Movie Crawler">
+						</div>
+						<div class="hover-thumb">
+							<h3>Movie Crawler</h3>
+							<p><a href="https://github.com/kdavidmoore/movie-app" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/movie-crawler" class="pure-button">Demo</a></p>
+							<p class="info-text">Pulls JSON data from themoviedb.org API; filters results using typeahead.js and Isotope.</p>
 						</div>
 					</div>
 				</div>
