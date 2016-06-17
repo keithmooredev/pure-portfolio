@@ -136,24 +136,24 @@
 				<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
 					<div class="thumb-wrapper">
 						<div class="outer-thumb">
-							<img id="img-3" class="custom-img" src="assets/images/movies.png" alt="Movie Crawler">
-						</div>
-						<div class="hover-thumb">
-							<h3>Movie Crawler</h3>
-							<p><a href="https://github.com/kdavidmoore/movie-app" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/movie-crawler" class="pure-button">Demo</a></p>
-							<p class="info-text">Pulls JSON data from themoviedb.org API; filters results using typeahead.js and Isotope.</p>
-						</div>
-					</div>
-				</div>
-				<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-					<div class="thumb-wrapper">
-						<div class="outer-thumb">
 							<img id="img-8" class="custom-img" src="assets/images/places.png" alt="Search Places">
 						</div>
 						<div class="hover-thumb">
 							<h3>Search Places</h3>
 							<p><a href="https://github.com/kdavidmoore/us-cities-angular" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/search-places" class="pure-button">Demo</a></p>
 							<p class="info-text">Search for places and display directions using AngularJS and Google Maps JavaScript API.</p>
+						</div>
+					</div>
+				</div>
+				<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+					<div class="thumb-wrapper">
+						<div class="outer-thumb">
+							<img id="img-3" class="custom-img" src="assets/images/movies.png" alt="Movie Crawler">
+						</div>
+						<div class="hover-thumb">
+							<h3>Movie Crawler</h3>
+							<p><a href="https://github.com/kdavidmoore/movie-app" class="pure-button">GitHub</a> <a href="http://kdavidmoore.com/movie-crawler" class="pure-button">Demo</a></p>
+							<p class="info-text">Pulls JSON data from themoviedb.org API; filters results using typeahead.js and Isotope.</p>
 						</div>
 					</div>
 				</div>
