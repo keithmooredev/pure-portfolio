@@ -8,4 +8,5 @@ Built with [Pure.css](http://purecss.io), a custom stylesheet, and a few jQuery 
 * Contact form uses a PHP script, along with [PHPMailer](https://github.com/PHPMailer/PHPMailer), to send me an email containing your name, email address, and message
 * Social media links display icons using [font awesome](https://fortawesome.github.io/Font-Awesome/)
 
-## [Demo here](http://kdavidmoore.com)
+## Note
+As of July 2016, my personal [web site](http://kdavidmoore.com) now uses a different portfolio that I built called [skeleton-portfolio](https://github.com/kdavidmoore/skeleton-portfolio).
